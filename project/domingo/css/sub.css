@@ -1,0 +1,117 @@
+.sub_page_wrap { width: 100%; margin: 0 auto; display: flex; flex-wrap: wrap; flex-direction: column; gap: 120px; background: #000; }
+
+h1 {font-size: 20px; font-weight: 700;  color: #fff; }
+
+header {
+ width: 100%; height: 80px; background: #000;
+ display: flex; justify-content: space-between; align-items: center; 
+ padding: 0 2.5%;box-sizing: border-box;
+}
+
+header nav ul { display: flex; flex-wrap: wrap; gap: 32px; }
+header nav a { display: inline-block; color: #FFF;}
+header nav a { display: inline-block; color: #FFF;}
+header nav a:hover { color: yellow; }
+
+.main_banner { 
+    width: 100%; height: 806px; background: url('../img/sub_bg.jpg') no-repeat 50% 50%; color: #FFF; text-align: center;
+    display: flex; flex-wrap: wrap; flex-direction: column; gap: 26px; justify-content: center; align-items: center;
+}
+.main_banner .display_s { font-family: "Gilda Display", serif; font-size: 36px; letter-spacing: 40px; }
+
+.brand_story { width: 100%; height: 1080px; display: flex; flex-wrap: wrap; flex-direction: column; gap: 62px; }
+.brand_story .sub_title_xl { text-align: center; }
+.brand_contents { display: flex; flex-wrap: wrap; width: 100%; height: 839px; background: url('../img/brand_story_bg.jpg') no-repeat 50% 50%; }
+.brand_contents_text_wrap { width: 1824px; display: flex; gap: 100px; align-items: center; padding: 0 49px; }
+.brand_story .divider { width: 1px; height: 2px; flex: 1; padding: 0 60px; background: #FFF; }
+
+.our_process { 
+    width: 100%; height: 1393px; background: url('../img/our_process_bg.png') no-repeat 50% 50%; text-align: center; align-content: center; 
+    display: flex; flex-wrap: wrap; flex-direction: column; gap: 250px;
+
+}
+.process_contents { width: 800px; margin: 0 auto; display: flex; flex-wrap: wrap; flex-direction: column; gap: 115px; padding-top: 25px; box-sizing: border-box; }
+.our_process .text_wrap { width: 400px; padding: 0px 24px; box-sizing: border-box; display: flex; flex-wrap: wrap; flex-direction: column; gap: 16px; }
+.our_process .title_wrap { display: flex; flex-wrap: wrap; gap: 16px; }
+.our_process .process_box_02 .title_wrap { display: flex; flex-wrap: wrap; gap: 16px; }
+.process_box_01 { display: flex; flex-wrap: wrap; justify-content: flex-end; text-align: left; }
+.process_box_02 { display: flex; flex-wrap: wrap; justify-content: flex-start; text-align: right; }
+.process_box_02 .title_wrap { justify-content: flex-end; }
+.process_box_03 { display: flex; flex-wrap: wrap; justify-content: flex-end; text-align: left; padding-top: 14px; }
+.process_box_04 { display: flex; flex-wrap: wrap; justify-content: flex-start; text-align: right; margin-top: -14px; }
+.process_box_04 .title_wrap { justify-content: flex-end; }
+
+.selected_works { width: 1400px; display: flex; flex-wrap: wrap; flex-direction: column; gap: 62px; margin: 0 auto; align-items: center; text-align: center; }
+.works_contents { width: 100%; display: flex; flex-wrap: wrap; gap: 25px; justify-content: center; }
+.works_box { width: 450px; display: flex; flex-wrap: wrap; flex-direction: column; gap: 25px; }
+.works_box .text_wrap { display: flex; flex-wrap: wrap; flex-direction: column; gap: 12px; }
+
+.our_team {
+    width: 100%; 
+    display: flex; flex-wrap: wrap; flex-direction: column; gap: 50px;
+}
+
+.our_team .sub_title_xl { text-align: center; }
+
+.team_contents { width: 100%; }
+
+.team_box_01 {
+    width: 100%; height: 666px; display: flex; flex-wrap: wrap; flex-direction: column; gap: 5px; justify-content: center; align-items: center; text-align: center;
+    background: url('../img/team_img01.jpg') no-repeat 50% 50%;
+}
+.team_box_02 {
+    width: 100%; height: 666px; display: flex; flex-wrap: wrap; flex-direction: column; gap: 5px; justify-content: center; align-items: center; text-align: center;
+    background: url('../img/team_img02.jpg') no-repeat 50% 50%;
+}
+.team_box_03 {
+    width: 100%; height: 666px; display: flex; flex-wrap: wrap; flex-direction: column; gap: 5px; justify-content: center; align-items: center; text-align: center;
+    background: url('../img/team_img03.jpg') no-repeat 50% 50%;
+}
+.team_box_04 {
+    width: 100%; height: 666px; display: flex; flex-wrap: wrap; flex-direction: column; gap: 5px; justify-content: center; align-items: center; text-align: center;
+    background: url('../img/team_img04.jpg') no-repeat 50% 50%;
+}
+
+.team .owl-nav {
+    background: yellow;
+    position: absolute; bottom: 20px; left: -33.3%;
+    display: flex; flex-wrap: wrap; gap: 10px;
+}
+.owl-theme .owl-nav [class*=owl-] { margin: 0; }
+
+.owl-theme .owl-dots, .owl-theme .owl-nav {
+   background: #000;
+}
+
+.contact_us { width: 100%; height: 827px; display: flex; flex-wrap: wrap; flex-direction: column; gap: 62px; background: url('../img/contact_us_bg.png') no-repeat 50% 50%; align-items: center; padding-top: 120px; }
+.contact_contents { width: 1400px; display: flex; flex-wrap: wrap; gap: 17px; }
+.contact_box { 
+    width: 455px; height: 447px; padding-top: 120px; box-sizing: border-box; background: rgba(0, 0, 0, 0.70); backdrop-filter: blur(10px); 
+    display: flex; flex-wrap: wrap; flex-direction: column; gap: 32px; text-align: center; align-items: center;
+}
+
+.selected_works .sub_page_sub_title_xl {display: flex; justify-content: center;}
+.sub_page_sub_title_xl {display: flex; justify-content: center;}
+
+footer{width: 100%; 
+    text-align: left; /* 푸터 내부의 텍스트를 왼쪽으로 정렬 */}
+
+.footer_title{font-size: 48px; font-weight: 500; line-height: 140%; /* 67.2px */ letter-spacing: -2px; color: #fff;}
+
+.footer_top{display: flex; flex-direction: column; text-align: left; align-items: flex-start; justify-content: flex-start; padding-left: 48px; padding-bottom: 19px;}
+
+.line_footer {
+    width: 100%;
+    height: 1px;
+    background-image: repeating-linear-gradient(to right, #fff 0, #fff 1px, transparent 1px, transparent 20px);
+    background-size: 100% 1px;
+}
+
+.footer_middle{display: flex; justify-content: space-between; 
+padding-left: 48px; padding-right: 48px; padding-bottom: 27px; padding-top: 32px;
+}
+.footer_content{display: flex; gap: 88px;}
+.footer_bottom{ display: flex; width: 100%; box-sizing: border-box; padding: 39px 48px;}
+.footer_txt{display:flex; width: 60px;}
+.footer_img{display:flex; width: 100%; height: 239px; background: url(../img/footer_img.png);}
+
