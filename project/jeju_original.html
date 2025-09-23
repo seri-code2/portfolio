@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Jejubeer Desktop View</title>
+ <style>
+        @keyframes view_on {
+            0% { background: rgba(0,0,0,0.5); }
+            50% { background: #FFDF92; }
+            100% { background: rgba(0,0,0,0.5); }
+        }
+        html { scroll-behavior: smooth; }
+        body { margin: 0; padding: 0; overflow-x: hidden; background: #FFDF92; min-width: 320px; }
+        #wrap { width: 70%; margin: 0 auto; }
+        img { display: block; width: 100%; }
+        .origin {color: gray;}
+    </style>
+
+</head>
+
+<body>
+    <div id="wrap">
+        <img src="../img/portfolio/jeju_main.jpg" alt="프로모션">
+        <img src="../img/portfolio/jeju_sub.jpg" alt="프로모션">
+        <p class="origin">이미지 출처 : hanwoolnjeju.com </p>
+    </div>
+</body>
+</html>
